@@ -1,19 +1,25 @@
 # Prime Elementology Decay Shadow Atlas
 
+[![DOI](https://zenodo.org/badge/1288566492.svg)](https://doi.org/10.5281/zenodo.21178948)
+
 An Operator Intelligence-style HTML dashboard for exploring the Prime Elementology Decay Shadow Atlas dataset.
+
+## Atlas Signal
+
+**51,772 configurations · 383,320 decay-shadow relations · 435,092 total mapped entities**
+
+This release packages the atlas as a single-file intelligence surface: dense enough for research scanning, fast enough for direct browser deployment, and structured for immediate shadow-path inspection.
 
 ## Files
 
-- `index.html` - the standalone interactive application.
-- `atlas-data.js` - the bundled atlas dataset used by the app.
+- `index.html` - the self-contained interactive application, with the atlas dataset embedded directly inside the file.
+- `atlas-data.js` - optional source/export copy of the bundled atlas dataset; it is no longer required to run `index.html`.
 
-Keep both files in the same folder.
+Only `index.html` is required for deployment.
 
 ## How To Open
 
-Open `index.html` in a modern desktop browser. No build step or internet connection is required.
-
-If the browser blocks local script loading in your environment, serve the `outputs` folder with a local static server and open the local URL instead.
+Open `index.html` in a modern desktop browser. No build step, internet connection, or external data file is required.
 
 ## Main Features
 
