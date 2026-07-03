@@ -13,7 +13,6 @@ This release packages the atlas as a single-file intelligence surface: dense eno
 ## Files
 
 - `index.html` - the self-contained interactive application, with the atlas dataset embedded directly inside the file.
-- `atlas-data.js` - optional source/export copy of the bundled atlas dataset; it is no longer required to run `index.html`.
 
 Only `index.html` is required for deployment.
 
